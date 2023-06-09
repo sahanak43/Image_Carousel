@@ -1,11 +1,4 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -24,9 +17,117 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+.maindetail{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: blue;
+  padding-top: 20px;
+
+}
+ /* h1{
+  color: rgb(0, 72, 255);
+  text-align: center;
+
+} */
+ .marginset{
+  margin-top: 2 rem;
+  margin-bottom: 2 rem;
+  margin-left: 2 rem;
+  margin-right: 2 rem;
+}
+.leftdetail{
+  max-width: 32 rem;
+  height: 18 rem;
+  display:flex ;
+  overflow: hidden;
+  position: relative;
+}
+.leftslidedetail{
+  position: absolute;
+  left: 0;
+  /* font-size: 4rem; */
+  top: 50%;
+  transform: translateY((-50%));
+  color: #fff;
+  cursor: pointer;
+}
+.heading{
+  text-align: center;
+  justify-content: center;
+}
+.indexdetail{
+  display: block; 
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  /* padding-top: 10%; */
+  justify-content: center;
+  display: flex;
+  padding-bottom: 10px;
+  top: 20px;
+   /* position: relative; */
+  /* top: 20px; */ 
+  
+}
+.hiddendetail{
+  display: none;
+
+}
+.elementdetail{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  left: 45%;
+  bottom: -5px;
+}
+.currentslide{
+  height: 5px ;
+  width: 0.5 rem;
+  /* background-color: #2779bd; */
+ color: blue;
+  /* border-radius: 10%; */
+  /* margin-left: 0.5rem; */
+  /* margin-right: 0.5 rem; */
+  margin-top: 0.5 rem;
+  cursor: pointer;
+  font-size: 5rem;
+
+} 
+.previousslide{
+  height: 0.5 rem;
+  width: 15px;
+  color: #fff;
+  border-radius: 50%;
+  margin-left: 0.5 rem;
+  margin-right: 0.5 rem;
+  /* margin-bottom: 0.5rem; */
+  cursor: pointer;
+  font-size: 5rem;
+  
+
+}
+.rightslidedetail{
+  position: absolute;
+  right: 0;
+  /* font-size: 10 rem; */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  cursor: pointer;
+} 
+
+
 
 @keyframes App-logo-spin {
   from {
